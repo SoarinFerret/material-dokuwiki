@@ -44,16 +44,18 @@ if($technical) $feedbackLink .= rawurlencode("\n\n====PLEASE DO NOT DELETE=====\
 if($sidebarPage) tpl_include_page("sidebar");
 ?>
 
+<!-- Comment these out since they are unnecessary -->
+<!--
 <a class="mdl-navigation__link" href="<?php echo DOKU_BASE . "doku.php?id=wiki:dokuwiki" ?>">
     <i class="material-icons" role="presentation">done_all</i>
     First link</a>
 <a class="mdl-navigation__link" href="<?php echo DOKU_BASE . "doku.php?id=playground:playground" ?>">
     <i class="material-icons" role="presentation">done</i>
-    Second link</a>
+    Second link</a>-->
 <div class="mdl-layout-spacer"></div>
-<a class="mdl-navigation__link" href="<?php echo DOKU_BASE . "about" ?>">
+<a class="mdl-navigation__link" href="<?php echo DOKU_BASE . "doku.php?id=about" ?>">
     <i class="material-icons" role="presentation">info_outline</i>
     About</a>
-<a class="mdl-navigation__link" href="<?php echo DOKU_BASE . "help/" ?>">
+<a class="mdl-navigation__link" href="<?php echo DOKU_BASE . "doku.php?id=help" ?>">
     <i class="material-icons" role="presentation">help_outline</i>
     Help</a>
