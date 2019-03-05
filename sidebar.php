@@ -63,6 +63,8 @@ if($sidebarPage) {
             Help</a>
     ';
 }
+//TODO: do not overwrite the user's sidebar with every update
+?>
 <div class="mdl-layout-spacer"></div>
 <a class="mdl-navigation__link" href="<?php echo DOKU_BASE . "doku.php?id=about" ?>">
     <i class="material-icons" role="presentation">info_outline</i>
@@ -70,5 +72,3 @@ if($sidebarPage) {
 <a class="mdl-navigation__link" href="<?php echo DOKU_BASE . "doku.php?id=help" ?>">
     <i class="material-icons" role="presentation">help_outline</i>
     Help</a>
-
-//TODO: do not overwrite the user's sidebar with every update
